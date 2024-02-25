@@ -47,3 +47,21 @@ body {
 .relogio span.tempo {
     font-size: 20px;
 }
+
+
+    /* Usando media queries para definir diferentes tamanhos de imagem */
+    img {
+      width: 50%; /* Largura relativa */
+    }
+
+    @media only screen and (max-width: 480px) {
+      img {
+        width: 100%; /* Largura total para telas pequenas */
+      }
+    }
+
+    /* Usando flexbox para centralizar a imagem na horizontal */
+    div {
+      display: flex;
+      justify-content: center;
+    }
